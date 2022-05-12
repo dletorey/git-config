@@ -43,6 +43,16 @@ Create a new branch and switch to it
 ```txt
 git config --global alias.cob 'checkout -b'
 ```
+### delete branch locally
+Delete a branch on local machine
+```txt
+git config --global alias.dbl 'branch -d'
+```
+### delete branch remotely
+Delete a branch on local machine
+```txt
+git config --global alias.dbr 'push origin --delete'
+```
 ## My Shortcuts
 ### status
 ```txt
@@ -67,4 +77,12 @@ git co branch-name
 ### create branch and checkout
 ```txt
 git cob new-branch-name
+```
+### delete branch locally
+```txt
+git dbl branch-name
+```
+### delete branch remotely
+```txt
+git dbr branch-name
 ```
